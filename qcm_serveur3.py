@@ -32,37 +32,7 @@ dict_reponses = {}  # dictionnaire des réponses des clients
 dict_scores = {} # dictionnaire des scores de la dernière question
 dict_scores_total = {}
 
-# liste des questions
-list_question = []
-sujet = """
-Quel système d'exploitation est sous licence libre ?
-    1) Windows
-    2) MacOS
-    3) Linux
-    0) Je ne sais pas"""
 
-bonnereponse = 3
-list_question.append((sujet,bonnereponse))
-
-sujet = """
-Le Web et Internet...
-    1) C'est la même chose !
-    2) Le Web fait parti d'Internet
-    3) Internet fait parti du Web
-    0) Je ne sais pas"""
-
-bonnereponse = 2
-list_question.append((sujet,bonnereponse))
-
-sujet = """
-Parmi ces langages informatiques, lequel n'est pas un langage de programmation ?
-    1) langage HTML
-    2) langage C
-    3) langage Python
-    0) Je ne sais pas"""
-
-bonnereponse = 1
-list_question.append((sujet,bonnereponse))
 
 #########################################################################################################################
 #REMPLISSAGE DU TABLEAU DES QUESTIONS/REPONSES                                      #
